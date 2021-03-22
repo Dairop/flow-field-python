@@ -1,3 +1,5 @@
+#DM me if you need explanation about the code
+
 import pygame
 import keyboard
 from perlin_noise import PerlinNoise
