@@ -41,7 +41,6 @@ class particle():
         g = min(round(1/ ((self.x/400-650/400)**2 + (self.y/240-610/240)**2) *255), 255)
         b = min(round(1/ ((self.x/550-1400/550)**2 + (self.y/450-501/450)**2) *255), 255)
 
-
         pygame.draw.line(screen, (r,g,b), (round(self.x - self.xv), round(self.y - self.yv)), (round(self.x), round(self.y)), 3)
 
 
